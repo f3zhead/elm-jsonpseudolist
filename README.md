@@ -1,6 +1,7 @@
 # elm-jsonpseudolist
 
-This package provides a JSON decoder for Javascript Array-like objects. These are objects that have a length and can be indexed, but are not actually Arrays and so don't have any Array methods. Examples include [NodeList](https://developer.mozilla.org/en/docs/Web/API/NodeList) and [TextTrackCueList](https://developer.mozilla.org/en-US/docs/Web/API/TextTrackCueList).
+This package provides a JSON decoder for Javascript Array-like objects. These are objects that have a length and can be indexed, but are not actually Arrays and so don't have any Array methods.  
+Examples include [NodeList](https://developer.mozilla.org/en/docs/Web/API/NodeList) and [TextTrackCueList](https://developer.mozilla.org/en-US/docs/Web/API/TextTrackCueList).  
 To use it, simply import JsonPseudoList and use the jsonPseudoList decoder as you would with Json.Decode.list:
 
     >>> Json.Decode.decodeString
