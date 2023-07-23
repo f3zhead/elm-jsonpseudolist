@@ -81,4 +81,4 @@ addvalue : Decoder a -> Int -> List a -> Decoder (List a)
 addvalue decoder num list =
     map
         (\val -> val :: list)
-        (field (toString num) decoder)
+        (field (String.fromInt num) decoder)
