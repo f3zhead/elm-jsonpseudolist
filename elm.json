@@ -1,6 +1,6 @@
 {
   "type": "package",
-  "name": "fezhead/jsonpseudolist",
+  "name": "f3zhead/jsonpseudolist",
   "summary": "JSON decoder for pseudo-array objects",
   "version": "1.0.0",
   "repository": "https://codeberg.org/fezhead/elm-jsonpseudolist.git",
